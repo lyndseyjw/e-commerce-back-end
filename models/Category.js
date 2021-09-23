@@ -12,11 +12,7 @@ Category.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    email: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
